@@ -2,6 +2,14 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 public class BonusServiceTest {
+    // Создаем тесты с говорящим названием под каждый случай.
+    // Подключаем @Test JUnit.
+    // В тесте объявляем объект service сервисного класса BonusService, который тестируем.
+    // Задаем переменные, значения которых будем изменять, включая ОР.
+    // Задаем переменную (формулу) для расчета ФР методом service.calculate.
+    // Подключаем команды Assertions JUnit.
+    // Сравниваем ОР и ФР методом assertEquals(expected, actual).
+    // Обязательно пробуем уронить тесты с невалидными данными.
 
     @Test
     void shouldCalculateForRegisteredAndUnderLimit() {
